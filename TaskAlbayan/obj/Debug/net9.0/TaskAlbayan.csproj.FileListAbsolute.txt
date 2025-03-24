@@ -185,3 +185,4 @@ C:\Users\HP-PC\source\repos\TaskAlbayan\TaskAlbayan\obj\Debug\net9.0\refint\Task
 C:\Users\HP-PC\source\repos\TaskAlbayan\TaskAlbayan\obj\Debug\net9.0\TaskAlbayan.pdb
 C:\Users\HP-PC\source\repos\TaskAlbayan\TaskAlbayan\obj\Debug\net9.0\TaskAlbayan.genruntimeconfig.cache
 C:\Users\HP-PC\source\repos\TaskAlbayan\TaskAlbayan\obj\Debug\net9.0\ref\TaskAlbayan.dll
+C:\Users\HP-PC\source\repos\TaskAlbayan\TaskAlbayan\obj\Debug\net9.0\TaskAlbayan.sourcelink.json

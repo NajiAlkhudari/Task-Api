@@ -19,3 +19,4 @@ C:\Users\HP-PC\source\repos\TaskAlbayan\TaskAlbayan.Service\obj\Debug\net9.0\Tas
 C:\Users\HP-PC\source\repos\TaskAlbayan\TaskAlbayan.Service\obj\Debug\net9.0\refint\TaskAlbayan.Service.dll
 C:\Users\HP-PC\source\repos\TaskAlbayan\TaskAlbayan.Service\obj\Debug\net9.0\TaskAlbayan.Service.pdb
 C:\Users\HP-PC\source\repos\TaskAlbayan\TaskAlbayan.Service\obj\Debug\net9.0\ref\TaskAlbayan.Service.dll
+C:\Users\HP-PC\source\repos\TaskAlbayan\TaskAlbayan.Service\obj\Debug\net9.0\TaskAlbayan.Service.sourcelink.json
