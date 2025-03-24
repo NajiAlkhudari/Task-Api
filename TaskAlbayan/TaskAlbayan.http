@@ -1,0 +1,6 @@
+@TaskAlbayan_HostAddress = http://localhost:5200
+
+GET {{TaskAlbayan_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
