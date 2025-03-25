@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TaskAlbayan.Service")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+885ce203434280fd688a34f5e61aa4df82330333")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+04d7737a70fe9ab40aec0d15d47bc9ecda790c73")]
 [assembly: System.Reflection.AssemblyProductAttribute("TaskAlbayan.Service")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TaskAlbayan.Service")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
