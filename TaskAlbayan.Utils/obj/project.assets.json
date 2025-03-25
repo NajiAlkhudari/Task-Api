@@ -2771,11 +2771,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP-PC\\source\\repos\\TaskAlbayan\\TaskAlbayan.Utils\\TaskAlbayan.Utils.csproj",
+      "projectUniqueName": "C:\\Users\\HP-PC\\source\\repos\\Task-Api\\TaskAlbayan.Utils\\TaskAlbayan.Utils.csproj",
       "projectName": "TaskAlbayan.Utils",
-      "projectPath": "C:\\Users\\HP-PC\\source\\repos\\TaskAlbayan\\TaskAlbayan.Utils\\TaskAlbayan.Utils.csproj",
+      "projectPath": "C:\\Users\\HP-PC\\source\\repos\\Task-Api\\TaskAlbayan.Utils\\TaskAlbayan.Utils.csproj",
       "packagesPath": "C:\\Users\\HP-PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP-PC\\source\\repos\\TaskAlbayan\\TaskAlbayan.Utils\\obj\\",
+      "outputPath": "C:\\Users\\HP-PC\\source\\repos\\Task-Api\\TaskAlbayan.Utils\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2797,8 +2797,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\HP-PC\\source\\repos\\TaskAlbayan\\TaskAlbayan.DB\\TaskAlbayan.DB.csproj": {
-              "projectPath": "C:\\Users\\HP-PC\\source\\repos\\TaskAlbayan\\TaskAlbayan.DB\\TaskAlbayan.DB.csproj"
+            "C:\\Users\\HP-PC\\source\\repos\\Task-Api\\TaskAlbayan.DB\\TaskAlbayan.DB.csproj": {
+              "projectPath": "C:\\Users\\HP-PC\\source\\repos\\Task-Api\\TaskAlbayan.DB\\TaskAlbayan.DB.csproj"
             }
           }
         }
@@ -2837,5 +2837,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json."
+    }
+  ]
 }

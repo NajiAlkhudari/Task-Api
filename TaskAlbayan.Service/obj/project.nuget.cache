@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0XQ6/q+3si4=",
+  "dgSpecHash": "QIDTN8qw7TA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\HP-PC\\source\\repos\\TaskAlbayan\\TaskAlbayan.Service\\TaskAlbayan.Service.csproj",
+  "projectFilePath": "C:\\Users\\HP-PC\\source\\repos\\Task-Api\\TaskAlbayan.Service\\TaskAlbayan.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP-PC\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\HP-PC\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
@@ -194,14 +194,10 @@
   ],
   "logs": [
     {
-      "code": "NU1903",
+      "code": "NU1900",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'System.Text.RegularExpressions' 4.3.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-cmhx-cq75-c4mj",
-      "libraryId": "System.Text.RegularExpressions",
-      "targetGraphs": [
-        "net9.0"
-      ]
+      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json."
     }
   ]
 }

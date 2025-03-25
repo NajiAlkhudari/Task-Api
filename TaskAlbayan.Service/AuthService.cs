@@ -26,12 +26,12 @@ namespace albayan.Services
                 var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
 
                 var claims = new List<Claim>
-                {
-                    new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
-                    new Claim(ClaimTypes.Name, user.Name),
-                    new Claim(ClaimTypes.Email, user.Email),
-                    new Claim(ClaimTypes.Role, user.Role),
-                };
+        {
+            new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
+            new Claim(ClaimTypes.Name, user.Name),
+            new Claim(ClaimTypes.Email, user.Email),
+            new Claim(ClaimTypes.Role, ((int)user.Role).ToString())
+        };
 
                 var expiresAt = DateTime.UtcNow.AddDays(1);
 
@@ -46,11 +46,8 @@ namespace albayan.Services
                 return new TokenResponseDto
                 {
                     Token = new JwtSecurityTokenHandler().WriteToken(token),
-                    Role = user.Role,
-                    ExpiresAt = expiresAt,
-                    
-
-
+                    Role = (int)user.Role,
+                    ExpiresAt = expiresAt
                 };
             }
             catch (Exception ex)

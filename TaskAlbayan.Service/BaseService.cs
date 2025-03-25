@@ -1,6 +1,7 @@
 using System.Security.Claims;
 using Microsoft.AspNetCore.Http;
 using TaskAlbayan.Common.Exceptions;
+using TaskAlbayan.DB;
 using TaskAlbayan.Utils;
 
 namespace TaskAlbayan.Service
@@ -13,19 +14,19 @@ namespace TaskAlbayan.Service
         {
             HttpContextAccessor = contextAccessor;
         }
-
-        public bool CheckUserRole(string requiredRole)
+public bool CheckUserRole(params UserRoles[] allowRoles)
 {
     var roleClaim = HttpContextAccessor.HttpContext?.User.Claims
         .FirstOrDefault(x => x.Type == ClaimTypes.Role);
 
-    if (roleClaim == null)
+    if (roleClaim == null || !Enum.TryParse(roleClaim.Value, out UserRoles userRole))
     {
-        throw new BaseException("User Role Error", 403, 
+        throw new BaseException("User Role Error", 403,
             new ErrorResponse("User Role Error", 403, "User does not have a role assigned"));
     }
 
-    return roleClaim.Value.Equals(requiredRole, StringComparison.OrdinalIgnoreCase);
+    return allowRoles.Any(role => (userRole & role) == role);
 }
+
     }
 }
